@@ -1,0 +1,16 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+.description {
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  text-transform: capitalize;
+}

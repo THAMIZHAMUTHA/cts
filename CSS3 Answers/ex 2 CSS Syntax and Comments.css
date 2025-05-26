@@ -1,0 +1,18 @@
+/* Section: Call-To-Action Buttons */
+.cta-button {
+  background-color: #007BFF; /* Bootstrap Blue */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Section: Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

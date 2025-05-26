@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Community Event</title>
+  <style>
+    /* Embedded CSS: Body background */
+    body {
+      background-color: #f0f8ff;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 style="color: red;">Welcome to the Local Event!</h1>
+  <h2 id="mainHeader">Upcoming Events</h2>
+  <div class="eventCard">Music Night</div>
+</body>
+</html>
+
+
+
+/* Header styles */
+#mainHeader {
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Event card styles */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fafafa;
+}
