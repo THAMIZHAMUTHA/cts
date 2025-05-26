@@ -1,0 +1,17 @@
+<script>
+    console.log("Page loaded");
+    let greeting = "Hello user!";
+    console.log(greeting);
+
+    function debugExample() {
+        let x = 10;
+        let y = 0;
+        console.log("Before divide");
+        let z = x / y; // Watch this!
+        console.log("After divide", z);
+    }
+
+    window.onload = debugExample;
+</script>
+
+<div style="width:100px; height:100px; background:red;" id="testDiv">Inspect Me!</div>

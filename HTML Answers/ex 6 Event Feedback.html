@@ -1,0 +1,37 @@
+<script>
+    function validatePhone(el) {
+        if (!/^\d{10}$/.test(el.value)) {
+            alert("Phone number must be 10 digits.");
+        }
+    }
+
+    function showFee(el) {
+        document.getElementById('fee').textContent = `Fee: $${el.value === 'vip' ? '50' : '20'}`;
+    }
+
+    function confirmSubmit() {
+        alert("Feedback submitted!");
+    }
+
+    function enlargeImage(el) {
+        el.style.width = "300px";
+    }
+
+    function countChars(el) {
+        document.getElementById("charCount").textContent = el.value.length;
+    }
+</script>
+
+<form>
+    <input type="text" placeholder="Phone" onblur="validatePhone(this)" /><br><br>
+    <select onchange="showFee(this)">
+        <option value="normal">Normal</option>
+        <option value="vip">VIP</option>
+    </select>
+    <p id="fee">Fee: $20</p>
+    <br>
+    <img src="thumb.jpg" ondblclick="enlargeImage(this)" width="100"><br><br>
+    <textarea onkeyup="countChars(this)"></textarea>
+    <p>Characters typed: <span id="charCount">0</span></p>
+    <button type="button" onclick="confirmSubmit()">Submit</button>
+</form>
